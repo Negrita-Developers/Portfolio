@@ -7399,10 +7399,11 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #fc3c3c !important; }
     .ftco-navbar-light.scrolled.awake {
-      margin-top: 0px;
+      margin-top: -40px;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
-      transition: .3s all ease-out; }
+      transition: .3s all ease-out;
+    height:160px; }
     .ftco-navbar-light.scrolled.sleep {
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
@@ -7620,7 +7621,7 @@ textarea.form-control {
   background: #fc3c3c !important; }
 
 .site-section {
-  padding: 7em 0; }
+  padding: 1em 0; }
 
 .ftco-bg-dark {
   background: #3c312e; }
